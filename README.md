@@ -29,4 +29,4 @@ Displays test count trends with adjustable window sizes.
 
 #Live data transmitting from arduino to PC
 
-Use Coolterm software to get live data
+Use Coolterm software to get live data (link: https://freeware.the-meiers.org/)
