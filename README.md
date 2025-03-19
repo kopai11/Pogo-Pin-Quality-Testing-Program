@@ -26,3 +26,7 @@ Supports live monitoring by detecting file updates and refreshing plots dynamica
 Organizes resistance values into different categories based on predefined percentage levels.
 Allows users to filter and analyze specific data ranges.
 Displays test count trends with adjustable window sizes.
+
+#Live data transmitting from arduino to PC
+
+Use Coolterm software to get live data
