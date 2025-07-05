@@ -13,6 +13,7 @@ The Arduino microcontroller functions as the central logic controller and perfor
  - Log all resistance data to a micro SD card in structured formats (CSV or TXT) for traceability and future analysis.
  - Monitor sensors such as compression detection and home-position switches to manage repeatable test cycles and ensure reliable operation.
  - Coordinate all functions in a unified electrical circuit where motor control, current passage, and resistance testing operate seamlessly without interfering with each other.
+
  All measured and logged data is also transmitted to a Python-based desktop application for real-time monitoring, data visualization, and session management, ensuring a smooth and user-friendly testing workflow.
 
 On the software side, a Python GUI application (built with Tkinter, PySerial, and Matplotlib) allows users to configure test conditions, monitor live data, and visualize resistance trends in real time. Key features include:
@@ -21,5 +22,6 @@ On the software side, a Python GUI application (built with Tkinter, PySerial, an
  - Session management with automatic/manual saving.
  - Data filtering and analysis tools.
  - Compatibility with serial live monitoring tools like CoolTerm(link: https://freeware.the-meiers.org/)
+
 This integrated system enables consistent, repeatable, and traceable testing of contact pins under both mechanical stress and electrical load. It bridges hardware precision with software flexibility, supporting both automated data acquisition and advanced visualization for technical analysis and decision-making in R&D environments.
 
