@@ -2,9 +2,9 @@
 
 This project presents a comprehensive automated system designed for evaluating the resistance of contact pins during controlled mechanical compression. The solution is developed for R&D use, where both electrical performance and mechanical durability need to be studied under customizable test conditions.
 The system architecture consists of three main components:
- 1.Cool Muscle CM2 Motor,
- 2.Arduino-based control unit, and
- 3.Python-based desktop application.
+ - Cool Muscle CM2 Motor,
+ - Arduino-based control unit, and
+ - Python-based desktop application.
 
 The Cool Muscle motor is configured and controlled via CoolWorks Lite software to execute precise pin compression sequences. Once the motor reaches specific compression heights, it sends a signal to the Arduino, which then coordinates all measurement and logging tasks within the system.
 The Arduino microcontroller functions as the central logic controller and performs the following actions in response to signals from the motor:
